@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+.container {
+    margin: auto;
+    width: 30%;
+    border: 3px solid red;
+    padding: 10px;
+    color: white;
+    background-color: dimgrey;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 100px;
+    height: 50px;
+    margin: 30px auto auto;
+    background-color: transparent;
+    color: red;
+    border: 2px solid #f44336;
+}
+
+button:hover {
+    background-color: #f44336;
+    color: white;
+}
